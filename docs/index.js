@@ -1,5 +1,5 @@
-const h1 = document.querySelector("h1")
-const p = document.querySelector("p")
+const h1 = document.querySelector("#h1")
+const p = document.querySelector("#p")
 const api = fetch('https://worldtimeapi.org/api/timezone/America/Detroit').then(response => response.json())
 const dayOfWeek = [
   "sunday",
